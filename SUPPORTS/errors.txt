@@ -1,0 +1,77 @@
+(.venv) G-TECH@alabhola ~/Desktop/nadim/google-search-sponsored-list$ python main.py
+
+DevTools listening on ws://127.0.0.1:3046/devtools/browser/97d35db1-f5f7-4595-a12a-2872728ea241
+Searching for: escape room in london
+An error occurred: Message: element not interactable
+  (Session info: chrome=131.0.6778.205)
+Stacktrace:
+        GetHandleVerifier [0x00007FF678CEFB05+28789]
+        (No symbol) [0x00007FF678C586E0]
+        (No symbol) [0x00007FF678AF5759]
+        (No symbol) [0x00007FF678B42E64]
+        (No symbol) [0x00007FF678B40F7D]
+        (No symbol) [0x00007FF678B6F43A]
+        (No symbol) [0x00007FF678B3C5B6]
+        (No symbol) [0x00007FF678B6F650]
+        (No symbol) [0x00007FF678B8F654]
+        (No symbol) [0x00007FF678B6F1E3]
+        (No symbol) [0x00007FF678B3A938]
+        (No symbol) [0x00007FF678B3BAA1]
+        GetHandleVerifier [0x00007FF67902933D+3410093]
+        GetHandleVerifier [0x00007FF67903E7DD+3497293]
+        GetHandleVerifier [0x00007FF679032A73+3448803]
+        GetHandleVerifier [0x00007FF678DB7BBB+848171]
+        (No symbol) [0x00007FF678C63C3F]
+        (No symbol) [0x00007FF678C5F6E4]
+        (No symbol) [0x00007FF678C5F87D]
+        (No symbol) [0x00007FF678C4ED49]
+        BaseThreadInitThunk [0x00007FFEDDD67374+20]
+        RtlUserThreadStart [0x00007FFEDE3FCC91+33]
+
+(.venv) G-TECH@alabhola ~/Desktop/nadim/google-search-sponsored-list$ 
+
+
+___________________________________________________________________________________
+(.venv) G-TECH@alabhola ~/Desktop/nadim/google-search-sponsored-list$ python test-csv.py
+
+DevTools listening on ws://127.0.0.1:10488/devtools/browser/1260e3b4-9d60-4da9-95b6-fb71f4237dd8
+Searching for: escape room in london
+Error extracting element data: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[role='heading']"}
+  (Session info: chrome=131.0.6778.205); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+        GetHandleVerifier [0x00007FF659B9FB05+28789]
+        (No symbol) [0x00007FF659B086E0]
+        (No symbol) [0x00007FF6599A592A]
+        (No symbol) [0x00007FF6599F930E]
+        (No symbol) [0x00007FF6599F95FC]
+        (No symbol) [0x00007FF6599EC6EC]
+        (No symbol) [0x00007FF659A1F47F]
+        (No symbol) [0x00007FF6599EC5B6]
+        (No symbol) [0x00007FF659A1F650]
+        (No symbol) [0x00007FF659A3F654]
+        (No symbol) [0x00007FF659A1F1E3]
+        (No symbol) [0x00007FF6599EA938]
+        (No symbol) [0x00007FF6599EBAA1]
+        GetHandleVerifier [0x00007FF659ED933D+3410093]
+        GetHandleVerifier [0x00007FF659EEE7DD+3497293]
+        GetHandleVerifier [0x00007FF659EE2A73+3448803]
+        GetHandleVerifier [0x00007FF659C67BBB+848171]
+        (No symbol) [0x00007FF659B13C3F]
+        (No symbol) [0x00007FF659B0F6E4]
+        (No symbol) [0x00007FF659B0F87D]
+        (No symbol) [0x00007FF659AFED49]
+        BaseThreadInitThunk [0x00007FFEDDD67374+20]
+        RtlUserThreadStart [0x00007FFEDE3FCC91+33]
+
+Created TensorFlow Lite XNNPACK delegate for CPU.
+Error on page 2: Message:
+
+Searching for: horror escape room london
+Error on page 1: Message:
+
+Searching for: haunted escape room london
+Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Error on page 1: Message:
+
+Results saved to sponsored_results.csv
+(.venv) G-TECH@alabhola ~/Desktop/nadim/google-search-sponsored-list$
