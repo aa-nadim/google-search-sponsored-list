@@ -1,18 +1,14 @@
 python3 -m venv .venv
-source .venv/bin/activate  # On Windows: source .venv/Scripts/activate
+source .venv/bin/activate  
+
+source .venv/Scripts/activate
 ___________________________________________
 python.exe -m pip install --upgrade pip
 
----------------------------------
-pip install -r requirements.txt
-------------------
-pip install selenium
-pip install time json
----------------------------
-pip install --upgrade selenium
-python scraper.py
 
-______________________________
-pip install selenium pandas
+pip install -r requirements.txt
+---------------------------
 
 python main.py
+python test.py
+python test-csv.py
