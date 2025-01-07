@@ -1,0 +1,13 @@
+docker stop $(docker ps -q)                # Stops all running containers by their IDs.
+
+docker rm $(docker ps -aq)                # Removes all containers, whether stopped or exited.
+
+docker image prune                        # Remove dangling images (unused layers). Removes image layers not associated with any container.
+
+docker image prune -a                     # Remove all unused images (dangling and unreferenced). Deletes all unused images, including dangling and unreferenced ones.
+
+docker volume prune                       # Remove unused volumes. Cleans up volumes not connected to any container.
+
+docker network prune                      # Remove unused networks. Removes all networks not currently used by containers.
+
+docker system prune -a --volumes          # Remove all unused data (containers, networks, images, and volumes). Cleans up all unused containers, images, networks, and volumes.

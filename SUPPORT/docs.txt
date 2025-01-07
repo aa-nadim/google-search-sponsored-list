@@ -1,0 +1,6 @@
+# scraper/
+# ├── config/
+# │   └── config.py
+# ├── utils/
+# │   └── driver_setup.py
+# └── main.py
